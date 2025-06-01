@@ -1,11 +1,14 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SpaceNotDev</title>
   <link rel="stylesheet" href="style.css" />
   <script defer src="lang.js"></script>
   <script defer src="script.js"></script>
-</head><body>
+</head>
+<body>
   <nav>
     <div class="logo">
       <img class="logo-img" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/2wCEAAkGBxISEhUREhIVFhUXFxcWFRUVFRYVFRYWFxUWFxcVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGhAQGy0mICYtLS0rLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKMBNwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAgMEBQYBBwj/xABAEAACAQIEAwYDBgUEAwEJAAAAAAECAxEEBSExBhJBUWEHEyJxgZGhFDKBobHB0SNSYrIV0kMVM1OTk7LSJDM0Q1Rz/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAKxEAAgICAgEDAwQDAQAAAAAAAAECEQMhEjEEQVETImEycZGhwQQU/9oADAMBAAIRAxEAPwD7aEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQf/Z" alt="Logo InferZ" />
@@ -20,28 +23,31 @@
       <option value="en">English</option>
       <option value="es">Español</option>
     </select>
-  </nav>  <main>
+  </nav>
+
+  <main>
     <section id="home" class="content-section">
       <h1 data-lang="hacked-title">Hacked By SpaceNotDev</h1>
       <p data-lang="hacked-text">Your site has been hacked for poor security. Fix it or we attack again.</p>
       <p data-lang="greetz">Greetz: Saox + SpaceDev</p>
       <p data-lang="fuck-msg">Fuck EsqueleSquad, Glory To SpaceDev</p>
-    </section><section id="doxes" class="content-section hidden">
-  <h2>Dox</h2>
-  <button class="minecraft-button" onclick="toggleForm()">Post dox</button>
-  <div id="post-form" class="hidden">
-    <input type="text" id="author-input" placeholder="Pon tu nombre" />
-    <textarea id="dox-input" placeholder="¿Qué quieres poner?"></textarea>
-    <button class="minecraft-button green" onclick="postDox()">Upload</button>
-  </div>
-  <ul id="dox-list"></ul>
-</section>
+    </section>
 
-<section id="discord" class="content-section hidden">
-  <h2>Discord</h2>
-  <a href="https://discord.gg/sXaKwafgcx" target="_blank">https://discord.gg/sXaKwafgcx</a>
-</section>
+    <section id="doxes" class="content-section hidden">
+      <h2>Dox</h2>
+      <button class="minecraft-button" onclick="toggleForm()">Post dox</button>
+      <div id="post-form" class="hidden">
+        <input type="text" id="author-input" placeholder="Pon tu nombre" />
+        <textarea id="dox-input" placeholder="¿Qué quieres poner?"></textarea>
+        <button class="minecraft-button green" onclick="postDox()">Upload</button>
+      </div>
+      <ul id="dox-list"></ul>
+    </section>
 
+    <section id="discord" class="content-section hidden">
+      <h2>Discord</h2>
+      <a href="https://discord.gg/sXaKwafgcx" target="_blank">https://discord.gg/sXaKwafgcx</a>
+    </section>
   </main>
 </body>
 </html>
