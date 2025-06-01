@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpaceDev | NS </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img class="logo-img" src="data:image/gif;base64,INSERTA_AQUI_TU_BASE64" alt="Logo InferZ" />
+      <span id="titleText">Saox + SpaceDev</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')" id="navHome">Home</a></li>
+        <li><a href="#" onclick="showSection('dox')" id="navDox">Doxes</a></li>
+        <li><a href="#" onclick="showSection('discord')" id="navDiscord">Discord</a></li>
+        <li>
+          <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="content-section">
+      <h1 id="homeTitle">Hacked By InferZSquad</h1>
+      <p id="homeMsg1">Your site has been hacked for poor security. Fix it or we attack again.</p>
+      <p id="homeMsg2">Greetz: SpaceDev + Saox</p>
+      <p id="homeMsg3">Fuck EsqueleSquad, Glory To SpaceDev</p>
+    </section>
+
+    <!-- Dox -->
+    <section id="dox" class="content-section hidden">
+      <h1 id="doxHeader">Dox</h1>
+      <form id="doxForm">
+        <input type="text" id="author" placeholder="Pon tu nombre" required />
+        <textarea id="description" placeholder="¿Qué quieres poner?" required></textarea>
+        <button type="submit" class="mc-button" id="uploadBtn">Upload</button>
+      </form>
+      <div id="doxList"></div>
+    </section>
+
+    <!-- Discord -->
+    <section id="discord" class="content-section hidden">
+      <h2 id="discordHeader">Únete a nuestro Discord</h2>
+      <a href="https://discord.gg/sXaKwafgcx" target="_blank" class="discord-btn" id="discordLink">Entrar al Discord</a>
+    </section>
+  </main>
+
+  <script src="lang.js"></script>
+  <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpaceDev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img class="logo-img" src="data:image/gif;base64,INSERTA_AQUI_TU_BASE64" alt="Logo InferZ" />
+      <span id="titleText">SpaceDev</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('home')" id="navHome">Home</a></li>
+        <li><a href="#" onclick="showSection('dox')" id="navDox">Doxes</a></li>
+        <li><a href="#" onclick="showSection('discord')" id="navDiscord">Discord</a></li>
+        <li>
+          <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+          </select>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home -->
+    <section id="home" class="content-section">
+      <h1 id="homeTitle">Hacked By InferZSquad</h1>
+      <p id="homeMsg1">Your site has been hacked for poor security. Fix it or we attack again.</p>
+      <p id="homeMsg2">Greetz: Swag x Marssepe 157</p>
+      <p id="homeMsg3">Fuck EsqueleSquad, Glory To SpaceDev</p>
+    </section>
+
+    <!-- Dox -->
+    <section id="dox" class="content-section hidden">
+      <h1 id="doxHeader">Dox</h1>
+      <form id="doxForm">
+        <input type="text" id="author" placeholder="Pon tu nombre" required />
+        <textarea id="description" placeholder="¿Qué quieres poner?" required></textarea>
+        <button type="submit" class="mc-button" id="uploadBtn">Upload</button>
+      </form>
+      <div id="doxList"></div>
+    </section>
+
+    <!-- Discord -->
+    <section id="discord" class="content-section hidden">
+      <h2 id="discordHeader">Únete a nuestro Discord</h2>
+      <a href="https://discord.gg/sXaKwafgcx" target="_blank" class="discord-btn" id="discordLink">Entrar al Discord</a>
+    </section>
+  </main>
+
+  <script src="lang.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
